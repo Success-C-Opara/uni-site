@@ -1,0 +1,67 @@
+
+div.contain{
+    background-image: url(../image/banner.png);
+    padding-bottom: 40%;
+    background-size: cover;
+    position: relative;
+}
+div.contain::before{
+    background-color: rgba(19, 17, 17, 0.815);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0%;
+    content: "";
+}
+div.card-body{
+    height: 25vh;
+}
+
+.frank{
+    border-radius: 50%;
+    margin-top: 4%;
+    position: absolute;
+    margin-left: 5%;
+}
+.facility{
+    margin-left: 22%;
+}
+
+div.contain_2{
+    background-image: url(../image/banner2.jpg);
+    width: 82%;
+    background-size: cover;
+    margin-top: 10%;
+    border-radius: 10px
+}
+
+div.enroll{
+    text-align: center;
+    align-content: center;
+}
+.contactus{
+    border: white;
+    padding: 1%;
+    
+    text-decoration: none;
+    border: 2px solid white;
+    color: white; 
+    font-weight: bolder;
+}
+.contactus:hover{
+    background-color: rgb(216, 142, 45);
+    color: white;
+}
+
+
+.icon-x{
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+}
+.love{
+    text-decoration: none;
+    color: black;
+}
